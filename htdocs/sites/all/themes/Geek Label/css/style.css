@@ -1,0 +1,204 @@
+/* fonts */
+@font-face {
+  font-family: 'Museo';
+  src: '../fonts/Museo/Museo300-Regular.otf';
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Museo Sans';
+  src: '../fonts/Museo/MuseoSans-300.otf';
+  font-weight: 300;
+  font-style: normal;
+}
+/* */
+
+/* reset */
+html {
+  height: 100%;
+  min-height: 100%;
+  min-width: 240px; }
+body {
+  height: 100%;
+  min-height: 100%;
+  min-width: 240px;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  font-smooth: antialiased; }
+h1 {
+	font: 300 3rem/1.4 'Museo Sans', sans-serif;
+}
+h2 {
+	font: 300 7.5rem/1.4 'Museo', sans-serif;
+}
+h3 {
+	font: 300 3rem/1.4 'Museo Sans', sans-serif;
+}
+h1, h2, h3 {
+  margin: 0;
+  padding: 0;
+}
+
+/* regions and blocks */
+.section {
+  min-height: 100vh;
+  padding-bottom: 100px;
+  box-sizing: border-box;
+  position: relative;
+}
+.header {
+	background-color: #d83454;
+	color: #fff;
+	height: 100vh;
+	padding-top: 30vh;
+}
+.header--logo img {
+	width: 360px;
+	height: auto;
+	margin: 0 auto;
+}
+.header--slogan {
+  margin-top: 60px;
+}
+.section h2 {
+  margin: 50px auto 15% auto;
+}
+
+.problem-one, .problem-two, .solution, .clients, .contact, .google-map {
+  background-color: #f1f2f2;
+}
+.problem-one, .problem-two, .solution {
+  padding-top: 200px;
+  box-sizing: border-box;
+}
+.problem-one img, .problem-two img, .solution img {
+  width: 720px;
+  height: auto;
+  margin: 0 auto;
+}
+.services--list > div {
+  margin-bottom: 35px;
+}
+.services--list--image > div {
+  background-color: #d83454;
+  padding: 45px;
+  border-radius: 50%;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.services--list--image img {
+  width: 85px;
+  height: auto;
+}
+.clients--list--logo {
+  margin-bottom: 60px;
+}
+.clients--list--logo img {
+  height: 90px;
+  width: auto;
+  margin: 0 auto;
+}
+.problem-one--description, .problem-two--description, .solution--description {
+  font: 300 4rem/1.4 'Museo Sans', sans-serif;
+  margin-top: 50px;
+}
+.problem-one--description i, .problem-two--description i, .solution--description i {
+  color: #d83454;
+  font-style: normal;
+}
+
+#map {
+  height: 450px;
+  border: 1px solid #999;
+}
+#map .addres p {
+  margin-bottom: 2px;
+}
+
+.webform-component input, .webform-component textarea {
+  border-radius: 2px;
+  padding: 12px 20px;
+  height: auto;
+  color: #414042;
+  font: 300 2rem/1.5 'Museo Sans', sans-serif;
+}
+.webform-component input::placeholder, .webform-component textarea::placeholder {
+  color: #414042;
+}
+
+.webform-submit {
+  display: block;
+  width: 100%;
+  background-color: #d83454;
+  color: #fff;
+  font: 300 2rem/1.5 'Museo Sans', sans-serif;
+  padding: 12px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.contact--webform {
+  margin-bottom: 20px;
+}
+
+.contact--phone-string, .contact--phone, .contact--email {
+  font: 300 2rem/1.5 'Museo Sans', sans-serif;
+}
+.contact--email a {
+  text-decoration: none;
+  color: #414042;
+}
+.contact--email a:hover {
+  text-decoration: none;
+  color: #414042;
+}
+
+
+.pager {
+  position: absolute;
+  left: 50%;
+  bottom: 25px;
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  cursor: pointer;
+  margin-left: -25px;
+  box-sizing: border-box;
+}
+.pager:before {
+  display: block;
+  height: 12px;
+  width: 12px;
+  border: 3px solid #fff;
+  border-left: none;
+  border-top: none;
+  transform: rotate(45deg);
+  transform-origin: 0 0;
+  position: absolute;
+  left: 50%;
+  top: 30%;
+}
+
+.pager.white {
+  background-color: #d83454;
+}
+.pager.black {
+  background-color: transparent;
+  border-color: #414042;
+  border-width: 2px;
+}
+.pager.black:before {
+  border-color: #414042;
+}
+.pager.red {
+  background-color: #d83454;
+  box-shadow: 0 0 10px 0 #999;
+}

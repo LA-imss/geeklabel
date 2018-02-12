@@ -1,0 +1,42 @@
+@media screen and (max-width:1199px) {
+	.services--list--image > div {
+	  padding: 35px;
+	}
+	.services--list--image img {
+	  width: 65px;
+	  height: auto;
+	}
+	.services--list--image {
+		text-align: right;
+	}
+	.services--list--title {
+		text-align: left;
+	}
+	.services--list > div > div{
+		vertical-align: bottom;
+	}
+}
+
+@media screen and (max-width:991px) {
+
+}
+
+@media screen and (max-width:767px) {
+	.services--list--image > div {
+	  padding: 25px;
+	}
+	.services--list--image img {
+	  width: 45px;
+	  height: auto;
+	}
+	.services--list > div > .row {
+		vertical-align: middle;
+	}
+	.services--list--title {
+		vertical-align: middle;
+	}
+	.contact .container {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+}
